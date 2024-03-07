@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+void cow(){
+}
 void LiuJianTaoFunction(){
 	printf("ljt is already\n");
 }
@@ -16,5 +18,6 @@ int main(int argv,char *args[]){
 		printf("hello world\n");
 	}
 	cat();
+	cow();
 }
 
