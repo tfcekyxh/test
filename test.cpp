@@ -5,6 +5,8 @@
 void LiuJianTaoFunction(){
 	printf("ljt is already\n");
 }
+void cat(){
+}
 int main(int argv,char *args[]){
 	char name[20];
 	scanf("%s",name);
@@ -13,4 +15,6 @@ int main(int argv,char *args[]){
 	}else{
 		printf("hello world\n");
 	}
+	cat();
 }
+
