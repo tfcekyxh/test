@@ -5,11 +5,15 @@
 void LiuJianTaoFunction(){
 	printf("ljt is already\n");
 }
+void NiuHaoFunction(){
+	printf("nh is already\n"); 
+}
 int main(int argv,char *args[]){
 	char name[20];
 	scanf("%s",name);
 	if(!strcmp(name,"ljt")){
 		LiuJianTaoFunction();
 	}
+	NiuHaoFunction();
 }
 
